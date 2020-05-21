@@ -25,7 +25,7 @@ int main(int argc, char *argv[]) {
 			}
 		} 
 		wordcount++; 
-		printf("单词个数：%d ",wordcount);
+		printf("单词个数%d ",wordcount);
 	}
 	
 	
@@ -39,7 +39,7 @@ int main(int argc, char *argv[]) {
 		while((c=fgetc(fp))!=EOF)
 		charcount++;
 		fclose(fp);
-		printf("字符数：%d",charcount);
+		printf("字符数%d",charcount);
 	}
 	
 	return 0;
