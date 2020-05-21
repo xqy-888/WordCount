@@ -25,7 +25,11 @@ int main(int argc, char *argv[]) {
 			}
 		} 
 		wordcount++; 
+<<<<<<< HEAD
 		printf("µ¥´Ê¸öÊý£º%d ",wordcount);
+=======
+		printf("å•è¯æ•°%d ",wordcount);
+>>>>>>> 6bf7f310859a9a0641bb18badcb83c1913fb7cd5
 	}
 	
 	
@@ -39,7 +43,11 @@ int main(int argc, char *argv[]) {
 		while((c=fgetc(fp))!=EOF)
 		charcount++;
 		fclose(fp);
+<<<<<<< HEAD
 		printf("×Ö·ûÊý£º%d",charcount);
+=======
+		printf("å­—ç¬¦æ•°%d",charcount);
+>>>>>>> 6bf7f310859a9a0641bb18badcb83c1913fb7cd5
 	}
 	
 	return 0;
